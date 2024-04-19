@@ -1,0 +1,50 @@
+header{
+    padding: 20px;
+    background-color: #fff;
+    color: $textWhite;
+    text-align: center;
+    .container{
+        border-bottom: 2px solid $Primary;
+        padding-bottom: 10px;
+    }
+    .links{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: end;
+        list-style: none;
+        li{
+            a{
+                font-weight: 700;
+                font-size: 20px;
+                padding: 10px;
+                color: $Primary;
+                text-decoration: none;
+                position: relative;
+                &::after{
+                    content: '';
+                    background-color: $Secondary;
+                    width: 0;
+                    height: 2px;
+                    border-radius: 50px;
+                    position: absolute;
+                    bottom: 0;
+                    left: 10px;
+                    transition: $transition;
+                }
+                &.router-link-exact-active{
+                    color: $Secondary;
+                    &::after{
+                        width: 50%;
+                    }
+                }
+                &:hover{
+                    &::after{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

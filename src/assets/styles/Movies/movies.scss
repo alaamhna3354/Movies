@@ -1,0 +1,14 @@
+@import './list.scss';
+@import './add.scss';
+@import './actor.scss';
+.movies{
+    .filtering{
+        margin: 50px 0;
+        label{
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+       
+    }
+}

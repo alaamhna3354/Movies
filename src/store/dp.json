@@ -1,0 +1,139 @@
+{
+    "List": [
+        {
+          "id":1,
+          "Title": "The Lion King",
+          "Year": "2019",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjIwMjE1Nzc4NV5BMl5BanBnXkFtZTgwNDg4OTA1NzM@._V1_SX300.jpg",
+          "Description":"Description1",
+          "actors":[
+            {
+              "id":1
+            },
+            {
+              "id":2
+            },
+            {
+              "id":3
+            }
+          ]
+  
+        },
+        {
+          "id":2,
+          "Title": "Mowgli: Legend of the Jungle",
+          "Year": "2018",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMjMzODc2NzU5MV5BMl5BanBnXkFtZTgwNTMwMTE3NjM@._V1_SX300.jpg",
+          "Description":"Description2",
+          "actors":[
+            {
+              "id":2
+            },
+            {
+              "id":3
+            }
+          ]
+        },
+        {
+          "id":3,
+          "Title": "Doctor Strange",
+          "Year": "2016",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BNjgwNzAzNjk1Nl5BMl5BanBnXkFtZTgwMzQ2NjI1OTE@._V1_SX300.jpg",
+          "Description":"Description3",
+          "actors":[
+            {
+              "id":1
+            },
+            {
+              "id":3
+            }
+          ]
+        },
+        {
+          "id":4,
+          "Title": "John Wick",
+          "Year": "2014",
+          "Poster": "https://m.media-amazon.com/images/M/MV5BMTU2NjA1ODgzMF5BMl5BanBnXkFtZTgwMTM2MTI4MjE@._V1_SX300.jpg",
+          "Description":"Description4",
+          "actors":[
+            {
+              "id":2
+            },
+            {
+              "id":3
+            },
+            {
+              "id":4
+            }
+          ]
+        },
+        {
+          "id":5,
+          "Title": "The Notebook",
+          "Year": "2004",
+          "Description":"Description5",
+          "actors":[
+            {
+              "id":2
+            },
+            {
+              "id":4
+            }
+          ]
+        }
+      ],
+      "Actors":[
+        {
+          "id":1,
+          "name":"example name",
+          "age":32,
+          "join_date":"22-11-2020",
+          "role":{
+            "Background":"Background",
+            "Cameo":"Cameo",
+            "Recurring_character":"Recurring_character",
+            "Side_character":"Side_character",
+            "Series_regular":"Series_regular"
+          }
+        },
+        {
+          "id":2,
+          "name":"example name 2",
+          "age":40,
+          "join_date":"5-4-2018",
+          "role":{
+            "Background":"Background 2",
+            "Cameo":"Cameo 2",
+            "Recurring_character":"Recurring_character 2",
+            "Side_character":"Side_character 2",
+            "Series_regular":"Series_regular 2"
+          }
+        },
+        {
+          "id":3,
+          "name":"example name 3",
+          "age":32,
+          "join_date":"2-1-2019",
+          "role":{
+            "Background":"Background 3",
+            "Cameo":"Cameo 3",
+            "Recurring_character":"Recurring_character 3",
+            "Side_character":"Side_character 3",
+            "Series_regular":"Series_regular 3"
+          }
+        },
+        {
+          "id":4,
+          "name":"example name 4",
+          "age":42,
+          "join_date":"4-9-2022",
+          "role":{
+            "Background":"Background 4",
+            "Cameo":"Cameo 4",
+            "Recurring_character":"Recurring_character 4",
+            "Side_character":"Side_character 4",
+            "Series_regular":"Series_regular 4"
+          }
+        }
+      ]
+}

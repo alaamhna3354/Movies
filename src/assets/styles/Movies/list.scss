@@ -1,0 +1,52 @@
+.list-movies{
+    .actors-list{
+        border: 2px solid #ddd;
+        padding: 20px;
+        .item-actor{
+            margin: 20px 0;
+            ul{
+                width: 100%;
+                li{
+                    font-weight: 500;
+                    line-height: 1.8;
+                    strong{
+                        color: $Secondary;
+                    }
+                }
+            }
+        }
+        
+    }  
+    .item{
+        box-shadow: 0px 10px 10px #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+        .image{
+            img{
+                width: 100%;
+            }
+        }
+        .info{
+        padding: 10px 20px;
+            .title{
+                font-size: 20px;
+                font-weight: 700;
+                color: $Secondary;
+                text-align: center;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            span{
+                color: $Primary;
+                font-size: 18px;
+                font-weight: 500;
+                strong{
+                    font-size: 20px;
+                    color: $Secondary;
+                }
+            }
+        }
+        
+    }
+}

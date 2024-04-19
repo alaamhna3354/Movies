@@ -1,0 +1,22 @@
+.actor-item{
+    .col {
+        border: 1px solid #eee;
+        display: grid;
+        place-content: center;
+    }
+    input[type=text]{
+        background-color: transparent;
+        border-bottom: 1px solid #ddd;
+        border-radius: 0;
+    }
+    
+    input[type=checkbox]{
+        accent-color: $Primary;
+        width: 15px;
+        height: 15px;
+    }
+    span{
+        color: $Secondary;
+        font-weight: 500;
+    }
+}

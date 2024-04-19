@@ -1,0 +1,100 @@
+/* ____________________________________________________
+
+                        Main and Components Styles
+        ____________________________________________________
+ */
+@import './varible';
+@import './header.scss';
+@import './Movies/movies.scss';
+@import './footer.scss';
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+#app {
+    overflow-x: hidden;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input,select{
+    width: 100%;
+    height: 45px;
+    background-color: #30a37f73;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: #00000033;
+    z-index: -1;
+    opacity: 0;
+    transition: 1s;
+    cursor: pointer;
+    &.open{
+        left: 0;
+        z-index: 99;
+        opacity: 1;
+    }
+}
+.head-section{
+    background-color: $Primary;
+    padding: 10px 0;
+    text-align: start;
+    margin-bottom: 20px;
+    h1{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    p{
+        font-size: 18px;
+    }
+}
+.btn-main{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: $Primary;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    transition: $transition;
+    border: none;
+    &:hover{
+    background-color: $Secondary;
+    color: #fff;
+    }
+    &.delete{
+    background-color: #d93434;
+        &:hover{
+        background-color: #b32222;
+        color: #fff;
+        }
+    }
+}
+.error-message{
+    font-weight: 500;
+    font-size: 16px;
+    color: #d93434;
+}
+
