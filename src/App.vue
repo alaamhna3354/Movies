@@ -27,13 +27,8 @@ export default {
   created(){
     setTimeout(() => {
       this.load = false
-    }, 500);
+    }, 2000);
   },
-//   watch:{
-//     $route (to, from){
-//       $("html, body").animate({scrollTop: 0}, 500);
-//     }
-// } 
 }
 </script>
 
