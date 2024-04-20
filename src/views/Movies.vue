@@ -66,7 +66,7 @@ export default {
         });
         else if (this.actors_num != '')
         return this.List.filter((el) => {
-          return el.actors == this.actors_num ;
+          return el.actors.length == this.actors_num ;
         });
         else{
           return this.List;
