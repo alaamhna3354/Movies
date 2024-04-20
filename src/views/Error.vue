@@ -7,8 +7,7 @@
         </div>
         <div class="col-md-8" style="display: grid;place-content: center;">
        <h1 style="color: #0a3041;">
-        {{ 
-            this.$i18n.locale == 'ar' ? 'نأسف هذه الصفحة غير موجودة !!':'Sorry Page Not Fount !!' }}
+        Sorry Page Not Fount !!
        </h1>
         </div>
       </div>
